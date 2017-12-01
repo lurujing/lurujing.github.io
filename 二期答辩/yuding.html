@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店预订</title>
+    <link rel="stylesheet" href="css/yuding.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/yuding.js"></script>
+</head>
+<body>
+    <div id="warper">
+        <img src="images/zhuye-1.jpg" alt=""/>
+        <div id="header">
+            <div id="logo">
+                <img src="images/logo.png" alt=""/>
+            </div>
+            <a href="index.html"> < 返回首页 </a>
+        </div>
+        <div id="main">
+            <div id="main-txt">
+                <table>
+                <!--<table border="0" cellspacing="0" width="1100">-->
+                    <thead>
+                    <tr>
+                        <th>房间</th>
+                        <th>描述</th>
+                        <th>单价/天</th>
+                        <th>数量</th>
+                        <th>小计</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><img src="images/jiudian/1467250253514865.jpg" alt=""></td>
+                        <td>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 双人标准间   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;适住1-2人</td>
+                        <td>&yen;589</td>
+                        <td>
+                            <button onclick="calc(this)">+</button>
+                            <span>0</span>
+                            <button onclick="calc(this)">-</button>
+                        </td>
+                        <td>&yen;0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/jiudian/1467250008434962.jpg" alt=""></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;豪华单人间&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;适住1人</td>
+                        <td>&yen;699</td>
+                        <td>
+                            <button onclick="calc(this)">+</button>
+                            <span>0</span>
+                            <button onclick="calc(this)">-</button>
+                        </td>
+                        <td>&yen;0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/jiudian/1467249970906054.jpg" alt=""></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;豪华套房&nbsp;&nbsp;&nbsp;&nbsp;
+                        适住3-4人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&yen;1199</td>
+                        <td>
+                            <button onclick="calc(this)">+</button>
+                            <span>0</span>
+                            <button onclick="calc(this)">-</button>
+                        </td>
+                        <td>&yen;0</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="4" class="txt1">总计</td>
+                        <td class="txt2">&yen;0</td>
+                    </tr>
+                    </tfoot>
+                </table>
+                <button class="btn1" >结算</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="alert">
+        <a>付款总金额：</a>
+        <span class="zj"></span><br>
+        <a>选择付款方式：</a><br/>
+        <img src="images/timg.jpg" alt=""/>
+        <img src="images/54bOOOPICe8_202.jpg" alt=""/>
+        <img src="images/110_bdb1329a7720d450f637a6868c65b3cd_con.png" alt=""/>
+        <div class="close">
+            x
+        </div>
+    </div>
+</body>
+</html>
