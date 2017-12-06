@@ -27,3 +27,43 @@ body {
     bottom:3%;
     margin-left:-13.5px;
 }
+
+
+/*µÚÒ»ÆÁ*/
+
+.s1{
+    background: url(../img/bj.png);
+    height: 100%;
+    position:relative;
+}
+.s1 .header img:nth-of-type(1){
+    width: 30px;
+    position:absolute;
+    top: 120px;
+    left: 50px;
+}
+.s1 .header img:nth-of-type(2){
+    width: 60px;
+    position:absolute;
+    top: 96px;
+    left:276px;
+}
+.s1 .header img:nth-of-type(3){
+    width: 50px;
+    position:absolute;
+    top: 430px;
+    left: 36px;
+}
+.s1 .header img:nth-of-type(4){
+    width: 50px;
+    position:absolute;
+    top: 70px;
+    left: 166px;
+}
+.s1 .header img:nth-of-type(5){
+    width: 70%;
+    position:absolute;
+    top:25%;
+    left: 50%;
+    margin-left:-35%;
+}
