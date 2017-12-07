@@ -188,11 +188,12 @@ body {
 }
 .s2 div span{
     background-color: #00e8f2;
+    background:-webkit-linear-gradient(left,#00e8f2,#01faa8);
     padding:4px 29px;
     border-radius:12px;
     color:#000;
     font-weight:bold;
-    position:relative;
-    top:20px;
     font-size:16px;
+    position:relative;
+    top: 20px;
 }
