@@ -35,7 +35,7 @@ body {
 }
 
 
-/*��һ��*/
+/*��一屏首页��*/
 
 .s1{
     background: url(../img/bj.png);
@@ -73,11 +73,13 @@ body {
     left: 50%;
     margin-left:-35%;
 }
+
+
+/*main*/
 .s1 .main{
     position:relative;
     top:30%;
 }
-
 .s1 .main img:nth-of-type(1){
     width: 40%;
 }
@@ -99,6 +101,7 @@ body {
     margin-top:20px;
 }
 
+/*footer*/
 .s1 .footer{
     color:#01f2cf;
     position:absolute;
