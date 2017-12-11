@@ -26,7 +26,7 @@ body {
     background: #fff;
 }
 .swiper-button-next{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     left:50%;
     right:auto;
     top:auto;
@@ -384,4 +384,14 @@ body {
     margin-top: 10px;
     background-size:contain;
 }
+.s4 div{
+    position:absolute;
+    width: 100%;
+    top:22%;
+}
+.s4 div img{
+    width: 82%;
+    position:absolute;
+    margin-left: -41%;
 
+}
