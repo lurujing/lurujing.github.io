@@ -35,10 +35,48 @@ body {
     animation: flash infinite;
 }
 
+/*-------------音乐小图标----------*/
+#mp3Btn{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    z-index:100;
+    width: 30px;
+    height: 31px;
+    background:rgba(0,0,0,0.5);
+    border-radius:50%;
+    border:4px solid #292929;
+    text-align: center;
+    line-height:28px;
+    transform:rotateZ(0deg);
+    animation: mp3key 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes mp3key {
+    from{
+        transform:rotateZ(0deg);
+    }
+    to{
+        transform:rotateZ(360deg)
+    }
+}
+#mp3Btn img{
+    width: 10px;
+}
 
-/*��一屏首页��*/
 
-.s1,.s2,.s3{
+
+
+
+
+
+
+
+
+/*------------一屏首页----------*/
+
+.s1,.s2,.s3,.s4{
     background: url(../img/bj.png);
     height: 100%;
     position:relative;
@@ -248,7 +286,7 @@ body {
     width: 80%;
     height: 380px;
     position:absolute;
-    top: 20%;
+    top: 18%;
     left: 50%;
     margin-left: -40%;
 }
@@ -308,5 +346,42 @@ body {
     text-align:left;
     position:absolute;
     left:15%;
-    bottom:12%;
+    bottom:14%;
 }
+
+
+/*----------第四屏--------------*/
+.s4 h2{
+    font-size: 24px;
+    position:relative;
+    top:10%;
+}
+.s4 small{
+    font-size:14px;
+    display:block;
+    margin-top:10px;
+    letter-spacing: 5px;
+}
+.s4 h2::before,
+.s4 h2::after{
+    content:"";
+    width: 83px;
+    height: 20px;
+    display:inline-block;
+}
+.s4 h2::before{
+    background:url(../img/14.png);
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 10px;
+    background-size:contain;
+}
+.s4 h2::after{
+    background:url(../img/13.png);
+    position: absolute;
+    top:0;
+    margin-left: 65px;
+    margin-top: 10px;
+    background-size:contain;
+}
+
