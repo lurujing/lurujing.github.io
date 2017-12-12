@@ -32,9 +32,21 @@ body {
     top:auto;
     bottom:3%;
     margin-left:-13.5px;
-    animation: flash infinite;
+    width: 17px;
+    height: 36px;
+    background-size:contain;
+    animation: buttonnext 1.6s infinite;
 }
-
+@keyframes buttonnext {
+    from{
+        bottom:3%;
+        opacity:1;
+    }
+    to{
+        bottom:6%;
+        opacity:0;
+    }
+}
 /*-------------音乐小图标----------*/
 #mp3Btn{
     position: absolute;
@@ -64,7 +76,6 @@ body {
 #mp3Btn img{
     width: 10px;
 }
-
 
 
 
@@ -146,6 +157,10 @@ body {
     line-height:25px;
     margin-top:20px;
 }
+.swing {
+    transform-origin: center;
+}
+
 
 /*footer*/
 .s1 .footer{
@@ -164,12 +179,15 @@ body {
 .s1 .footer img{
     position: absolute;
     height: 70px;
+
 }
 .s1 .footer img:nth-of-type(1){
     left: 0;
+    animation:bounceInLeft infinite;
 }
 .s1 .footer img:nth-of-type(2){
     left: -95px;
+    animation:bounceInRight infinite;
 }
 
 /*-------------第二屏-----------*/
@@ -251,7 +269,7 @@ body {
 .s3 h2{
     font-size: 24px;
     position:relative;
-    top:10%;
+    top:8%;
 }
 .s3 small{
     font-size:14px;
@@ -286,7 +304,7 @@ body {
     width: 80%;
     height: 380px;
     position:absolute;
-    top: 18%;
+    top: 16%;
     left: 50%;
     margin-left: -40%;
 }
@@ -315,26 +333,32 @@ body {
 .s3 div:nth-of-type(1) p:nth-of-type(2){
     top:7%;
     left:14%;
+    animation:  swing infinite;
 }
 .s3 div:nth-of-type(1) p:nth-of-type(3){
     top:7%;
     right:14%;
+    animation:  swing infinite;
 }
 .s3 div:nth-of-type(1) p:nth-of-type(4){
     top:41%;
-    left:-7%
+    left:-7%;
+    animation:  swing infinite;
 }
 .s3 div:nth-of-type(1) p:nth-of-type(5){
     top:41%;
     right:-7%;
+    animation:  swing infinite;
 }
 .s3 div:nth-of-type(1) p:nth-of-type(6){
     bottom:7%;
     left:14%;
+    animation:  swing infinite;
 }
 .s3 div:nth-of-type(1) p:nth-of-type(7){
     bottom:7%;
     right:14%;
+    animation:  swing infinite;
 }
 .s3 .title{
     width: 75%;
@@ -346,7 +370,7 @@ body {
     text-align:left;
     position:absolute;
     left:15%;
-    bottom:14%;
+    bottom:18%;
 }
 
 
@@ -389,9 +413,129 @@ body {
     width: 100%;
     top:22%;
 }
-.s4 div img{
+.s4 div>img{
     width: 82%;
     position:absolute;
     margin-left: -41%;
+}
+.s4 .main span img{
+    width: 34px;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+.s4 .main span:nth-of-type(2){
+    color:#00baff;
+}
+.s4 .main>img:nth-of-type(1){
+    width: 15px;
+    position:relative;
+    top:30px;
+    left:2%;
+}
+.s4 .main a:nth-of-type(1){
+    position:relative;
+    left:8%;
+    top:28px;
+    font-size:16px;
+}
 
+.s4 .main a span{
+    color:#fff;
+}
+.s4 .main>img{
+    height: 15px;
+}
+.s4 .main>img:nth-of-type(2){
+    width: 70%;
+    position:absolute;
+    top: 97px;
+    left: 48%;
+}
+.s4 .main>p:nth-of-type(1){
+    position:absolute;
+    right: 11%;
+    top: 94px;
+    font-size:14px;
+}
+.s4 .main>img:nth-of-type(3){
+    width: 38%;
+    position:absolute;
+    top: 121px;
+    left: 48%;
+}
+.s4 .main>p:nth-of-type(2){
+    position:absolute;
+    right: 39%;
+    top: 119px;
+    font-size:14px;
+    color:#00baff;
+}
+.s4 .main>img:nth-of-type(4){
+    width: 15px;
+    position:relative;
+    top:120px;
+    left:4%;
+}
+.s4 .main a:nth-of-type(2){
+    position:relative;
+    left:10%;
+    top:117px;
+    font-size:16px;
+}
+.s4 .main>img:nth-of-type(5){
+    width: 65%;
+    position:absolute;
+    top: 184px;
+    left: 48%;
+}
+.s4 .main>p:nth-of-type(3){
+    position:absolute;
+    right: 13%;
+    top: 181px;
+    font-size:14px;
+}
+.s4 .main>img:nth-of-type(6){
+    width: 36%;
+    position:absolute;
+    top: 209px;
+    left: 48%;
+}
+.s4 .main>p:nth-of-type(4){
+    position:absolute;
+    right: 42%;
+    top:208px;
+    font-size:14px;
+    color:#00baff;
+}
+.s4 .main>img:nth-of-type(7){
+    width: 15px;
+    position:relative;
+    top:215px;
+    left:8%;
+}
+.s4 .main a:nth-of-type(3){
+    position:relative;
+    left:15%;
+    top:213px;
+    font-size:16px;
+}
+.s4 .main>img:nth-of-type(8){
+    width: 60%;
+    position:absolute;
+    top: 280px;
+    left: 48%;
+}
+.s4 .main>p:nth-of-type(5){
+    position:absolute;
+    right: 20%;
+    top:277px;
+    font-size:14px;
+    color:#00baff;
+}
+.s4 .main>img:nth-of-type(9){
+    width: 60%;
+    position:absolute;
+    top: 300px;
+    left: 48%;
 }
