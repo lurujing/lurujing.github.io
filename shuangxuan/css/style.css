@@ -54,11 +54,7 @@ body {
 .s1{
     background: url("../img/1.jpg");
     height: 100%;
-    position: relative;
-    background-size:contain;
-}
-.s1 img{
     position: absolute;
-    left: 0;
-    top: 0;
+    width: 100%;
+    background-size:contain;
 }
