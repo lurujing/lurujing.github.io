@@ -1,0 +1,64 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.swiper-button-next{
+    transform: rotateZ(-90deg);
+    position: absolute;
+    left: 186px;
+    top: 670px;
+}
+.swiper{
+    transform-origin: center;
+}
+.swiper-button-next{
+    left:50%;
+    right:auto;
+    top:auto;
+    bottom:3%;
+    margin-left:-13.5px;
+    transform: rotate(-90deg);
+    width: 17px;
+    height: 29px;
+    background-size: contain;
+    animation: buttonnext 1.5s infinite;
+}
+@keyframes buttonnext {
+    0%{
+        bottom:3%;
+        opacity: 1;
+    }
+    100%{
+        bottom:8%;
+        opacity:0;
+    }
+}
+/*第一屏样式*/
+.s1{
+    background: url("../img/1.jpg");
+    height: 100%;
+    position: relative;
+    background-size:contain;
+}
+.s1 img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
