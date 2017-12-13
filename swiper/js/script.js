@@ -11,7 +11,6 @@ var swiper = new Swiper('.swiper-container', {
     navigation: {
         nextEl: '.swiper-button-next'
     },
-    loop: true,
 
 //animate动画
     on: {
