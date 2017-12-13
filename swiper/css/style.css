@@ -805,5 +805,19 @@ body {
 .s7 div img{
     width: 80%;
     position:absolute;
-    margin-left: -40%;
+    left: 10%;
+}
+.s7 div input{
+    width: 70%;
+    height: 56px;
+    margin-top:15px;
+}
+.s7 div input:nth-of-type(1){
+    margin-top:30px;
+}
+.s7 div a{
+    color:#fff;
+    text-decoration: none;
+    padding:15px 30%;
+    background:#00f2ca;
 }
