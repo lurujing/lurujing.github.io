@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.233334">
-              <caret line="246" column="57" selection-start-line="246" selection-start-column="57" selection-end-line="246" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.7240876">
+              <caret line="252" column="52" selection-start-line="252" selection-start-column="52" selection-end-line="252" selection-end-column="52" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86569345">
-              <caret line="820" column="21" selection-start-line="820" selection-start-column="21" selection-end-line="820" selection-end-column="21" />
+            <state vertical-scroll-proportion="-20.533333">
+              <caret line="827" column="10" selection-start-line="827" selection-start-column="10" selection-end-line="827" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -74,8 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -503,10 +503,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.533333">
+          <caret line="827" column="10" selection-start-line="827" selection-start-column="10" selection-end-line="827" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.233334">
-          <caret line="246" column="57" selection-start-line="246" selection-start-column="57" selection-end-line="246" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.7240876">
+          <caret line="252" column="52" selection-start-line="252" selection-start-column="52" selection-end-line="252" selection-end-column="52" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -516,14 +524,6 @@
             <element signature="n#h2#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86569345">
-          <caret line="820" column="21" selection-start-line="820" selection-start-column="21" selection-end-line="820" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
