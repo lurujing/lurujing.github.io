@@ -113,12 +113,12 @@ body {
 .s1 .text h2{
     position: absolute;
     width: 80%;
-    top: 41%;
+    top: 46%;
     left: 10%;
     font-size: 46px;
     font-family:仿宋;
     font-weight: normal;
-    letter-spacing: -10px;
+    letter-spacing: -3px;
 }
 .s1 .text-p{
     text-align: left;
