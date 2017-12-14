@@ -91,6 +91,7 @@ body {
     background: url("../img/1.jpg");
     height: 100%;
     position: relative;
+    width: 100%;
     background-size:contain;
     color: #fff;
 }
