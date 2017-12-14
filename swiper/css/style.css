@@ -63,7 +63,7 @@ body {
     transform:rotateZ(0deg);
     animation: mp3key 4s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    /*animation-timing-function: linear;*/
 }
 @keyframes mp3key {
     from{
