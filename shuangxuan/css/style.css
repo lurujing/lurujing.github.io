@@ -396,8 +396,19 @@ body {
     color:#dec5ff;
     line-height: 35px;
 }
-
-
+.s7 .main{
+    position:absolute;
+    top:20%;
+    text-align:left;
+    width: 80%;
+    left: 12%;
+    line-height:1.7em;
+}
+.s7 .main p{
+    color: #bbdcff;
+    margin-top:10px;
+    font-size:16px;
+}
 
 
 
@@ -427,9 +438,29 @@ body {
     left: 10%;
     border-radius:12px;
 }
-
-
-
+.s8 .main{
+    position:relative;
+    margin-top:12%;
+}
+.s8 .main input{
+    width: 70%;
+    height: 50px;
+    margin-top:15px;
+    font-size:18px;
+}
+.s8 .main a{
+    color:#fff;
+    text-decoration: none;
+    padding:15px 30%;
+    background:#c17fbf;
+    position:relative;
+    top:30px;
+}
+.s8 .main .p-text{
+    position:absolute;
+    bottom:-65%;
+    left: 19%;
+}
 
 
 
