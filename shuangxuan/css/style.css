@@ -140,10 +140,11 @@ body {
 .s2 .header h2{
     font-size:30px;
     font-family:仿宋;
-    position:relative;
-    margin-top:15%;
+    position:absolute;
+    top:7%;
+    left:34%;
 }
-.s2 .main{
+.s2 .main-bj{
     width: 80%;
     height: 58%;
     background: rgba(0, 0, 0, 0.2);
@@ -152,4 +153,13 @@ body {
     top: 20%;
     left: 10%;
     border-radius:12px;
+}
+.s2 .main{
+    position:absolute;
+    top:22%;
+    left: 14%;
+    width: 72%;
+    text-align:left;
+    font-size:14px;
+    line-height:2em;
 }
