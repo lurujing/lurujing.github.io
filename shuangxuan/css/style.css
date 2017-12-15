@@ -150,7 +150,7 @@ body {
     top:11%;
     left:22%;
     color:#dec5ff;
-    line-height:30px;
+    line-height:35px;
 }
 .s2 .main-bj{
     width: 80%;
@@ -188,7 +188,7 @@ body {
     top:11%;
     left:39%;
     color:#dec5ff;
-    line-height: 30;
+    line-height: 35px;
 }
 .s3 .main-bj{
     width: 80%;
@@ -236,25 +236,123 @@ body {
     top:11%;
     left:22%;
     color:#dec5ff;
-    line-height: 30;
+    line-height: 35px;
 }
-.s4 .main-bj{
+.s4 .main-bj1{
+    width: 40%;
+    height: 25%;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    border-radius:12px;
 }
-.s4 .main-bj div{
-    width: 33%;
-    height: 30%;
+.s4 .main img{
+    width: 95%;
+    margin-top:3%;
+    height: 70%;
+}
+.s4 .main p{
+    line-height:30px;
+}
+.s4 .main-bj2{
+    width: 40%;
+    height: 25%;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 22%;
+    right: 7%;
+    border-radius:12px;
+}
+.s4 .main-bj3{
+    width: 40%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    border-radius:12px;
+}
+.s4 .main-bj4{
+    width: 40%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    border-radius:12px;
 }
 
 
+/*---------------------第五屏-------------*/
 
-
-
-
-
+.s5 .header h2{
+    font-size:30px;
+    font-family:仿宋;
+    position:absolute;
+    top:6%;
+    left:26%;
+}
+.s5 .header a{
+    font-size:12px;
+    position:absolute;
+    top:11%;
+    left:28%;
+    color:#dec5ff;
+    line-height: 35px;
+}
+.s5 .main-bj1{
+    width: 40%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    border-radius:12px;
+}
+.s5 .main img{
+    width: 95%;
+    margin-top:3%;
+    height: 70%;
+}
+.s5 .main p{
+    line-height:30px;
+}
+.s5 .main-bj2{
+    width: 40%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 22%;
+    right: 7%;
+    border-radius:12px;
+}
+.s5 .main-bj3{
+    width: 40%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    border-radius:12px;
+}
+.s5 .main-bj4{
+    width: 40%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    border-radius:12px;
+}
 
 
 
