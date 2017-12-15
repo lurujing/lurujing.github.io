@@ -147,9 +147,10 @@ body {
 .s2 .header a{
     font-size:12px;
     position:absolute;
-    top:12%;
+    top:11%;
     left:22%;
     color:#dec5ff;
+    line-height:30px;
 }
 .s2 .main-bj{
     width: 80%;
@@ -184,9 +185,10 @@ body {
 .s3 .header a{
     font-size:12px;
     position:absolute;
-    top:12%;
+    top:11%;
     left:39%;
     color:#dec5ff;
+    line-height: 30;
 }
 .s3 .main-bj{
     width: 80%;
@@ -231,11 +233,21 @@ body {
 .s4 .header a{
     font-size:12px;
     position:absolute;
-    top:12%;
+    top:11%;
     left:22%;
     color:#dec5ff;
+    line-height: 30;
 }
-
+.s4 .main-bj{
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+}
+.s4 .main-bj div{
+    width: 33%;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+}
 
 
 
