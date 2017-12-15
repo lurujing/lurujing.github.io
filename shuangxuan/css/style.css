@@ -141,8 +141,15 @@ body {
     font-size:30px;
     font-family:仿宋;
     position:absolute;
-    top:7%;
-    left:34%;
+    top:6%;
+    left:26%;
+}
+.s2 .header a{
+    font-size:12px;
+    position:absolute;
+    top:12%;
+    left:22%;
+    color:#dec5ff;
 }
 .s2 .main-bj{
     width: 80%;
@@ -161,5 +168,81 @@ body {
     width: 72%;
     text-align:left;
     font-size:14px;
-    line-height:1.8em;
+    line-height:1.75em;
 }
+
+
+
+/*----------------------第三屏样式-----------------*/
+.s3 .header h2{
+    font-size:30px;
+    font-family:仿宋;
+    position:absolute;
+    top:6%;
+    left:26%;
+}
+.s3 .header a{
+    font-size:12px;
+    position:absolute;
+    top:12%;
+    left:39%;
+    color:#dec5ff;
+}
+.s3 .main-bj{
+    width: 80%;
+    height: 58%;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px #b68eff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius:12px;
+}
+.s3 .main .p-soft{
+    color: rgb(221, 245, 131);
+    position:absolute;
+    bottom:28%;
+    right:15%;
+    font-size:14px;
+}
+.s3 .main .p-text{
+    position: absolute;
+    top:26%;
+    left: 14%;
+    width: 72%;
+    text-align:left;
+    font-size:14px;
+    line-height:1.75em;
+}
+.s3 .p-text p:nth-of-type(2){
+    margin-top: 12%;
+}
+
+
+/*--------------第四屏------------*/
+
+.s4 .header h2{
+    font-size:30px;
+    font-family:仿宋;
+    position:absolute;
+    top:6%;
+    left:26%;
+}
+.s4 .header a{
+    font-size:12px;
+    position:absolute;
+    top:12%;
+    left:22%;
+    color:#dec5ff;
+}
+
+
+
+
+
+
+
+
+
+
+
