@@ -438,33 +438,40 @@ body {
     left: 10%;
     border-radius:12px;
 }
-.s8 .main{
-    position:relative;
-    margin-top:12%;
-}
-.s8 .main input{
+.s8 input{
     width: 70%;
-    height: 50px;
-    margin-top:15px;
-    font-size:18px;
+    line-height:40px;
 }
-.s8 .main a{
-    color:#fff;
-    text-decoration: none;
-    padding:15px 30%;
-    background:#c17fbf;
-    position:relative;
-    top:30px;
-}
-.s8 .main .p-text{
+.s8 input:nth-of-type(1){
     position:absolute;
-    bottom:-65%;
-    left: 19%;
+    top:25%;
+    left: 15%;
 }
-
-
-
-
+.s8 input:nth-of-type(2){
+    position:absolute;
+    top:33%;
+    left: 15%;
+}
+.s8 input:nth-of-type(3){
+    position:absolute;
+    top:41%;
+    left: 15%;
+}
+.s8>a{
+    width: 70%;
+    padding:10px 40px;
+    color:#fff;
+    background:#66478c;
+    position: absolute;
+    top:50%;
+    left:15%;
+}
+.s8 .p-text{
+    position:absolute;
+    bottom:25%;
+    width: 70%;
+    left: 15%;
+}
 
 
 
